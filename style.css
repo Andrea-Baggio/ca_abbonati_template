@@ -1,0 +1,52 @@
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
+.box{
+    width: 60%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-back-ground {
+    height: 35vh;
+    background-color: #216dc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-container {
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    text-align: center; 
+}
+
+.panel-head {
+    text-align: center;
+    font-weight: 900;
+}
+.card-container {
+    width: 80%;
+    margin: auto;
+}
+.card-name {
+    color: #b0b0b0;
+    margin-bottom: -15px;
+}
+
+ul{
+    margin-left: -20px;
+}
+li {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+@media screen and (max-width: 560px) {
+    .title-container {
+        font-size: 20px; 
+    }
+}
