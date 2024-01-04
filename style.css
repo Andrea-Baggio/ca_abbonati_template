@@ -9,8 +9,8 @@
 }
 
 .title-back-ground {
-    height: 35vh;
     background-color: #216dc1;
+    padding: 60px 0 190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +25,12 @@
 
 .panel-head {
     text-align: center;
-    font-weight: 900;
 }
 .card-container {
+    height: 300px;
     width: 80%;
     margin: auto;
+    position: relative;
 }
 .card-name {
     color: #b0b0b0;
@@ -38,15 +39,39 @@
 
 ul{
     margin-left: -20px;
+    margin-top: 400px;
+    padding-top: 20px;
 }
 li {
     font-size: 11px;
     line-height: 15px;
 }
 
+.btn-container {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.detail-button {
+    display: block;
+    margin: auto;
+    background-color: #f67420;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 11px;
+}
+
+
 
 @media screen and (max-width: 560px) {
     .title-container {
         font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .detail-button {
+        width: 80%;
     }
 }
